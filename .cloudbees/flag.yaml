@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: Flag-Health
+flagType: boolean
+description: ""
+labels:
+  - label4
+  - label2
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false
